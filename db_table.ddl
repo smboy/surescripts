@@ -1,0 +1,20 @@
+CREATE TABLE `stg_ss_data` (
+  `ncpdpid` varchar(10) DEFAULT NULL,
+  `store_number` varchar(50) DEFAULT NULL,
+  `store_name` varchar(100) DEFAULT NULL,
+  `addressline1` varchar(200) DEFAULT NULL,
+  `addressline2` varchar(200) DEFAULT NULL,
+  `city` varchar(50) DEFAULT NULL,
+  `state` varchar(5) DEFAULT NULL,
+  `zip` varchar(12) DEFAULT NULL,
+  `primary_phone` varchar(25) DEFAULT NULL,
+  `fax` varchar(25) DEFAULT NULL,
+  `active_start_time` varchar(20) DEFAULT NULL,
+  `active_end_time` varchar(20) DEFAULT NULL,
+  `text_service_level` varchar(100) DEFAULT NULL,
+  `partner_account` varchar(100) DEFAULT NULL,
+  `last_modified_date` varchar(20) DEFAULT NULL,
+  `npi` varchar(20) DEFAULT NULL,
+  `latitude` float DEFAULT NULL,
+  `longitude` float DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
